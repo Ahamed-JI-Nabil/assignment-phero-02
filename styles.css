@@ -194,7 +194,7 @@ body{
     align-items: center;
     margin-top: 70px;
 }
-.video-section video{
+.photography-video video{
     width: 700px;
     height: 500px;
     border-radius: 10px;
@@ -253,6 +253,7 @@ body{
 @media only screen and (max-width:688px){
 
 
+
     .container{
         max-width: 100%;
     }
@@ -268,10 +269,24 @@ body{
     .products{
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
+        height: max-content;
+    }
+    .see-more{
+        display: none;
     }
 
-    .video-section, .footer{
-        display: none;
+    .section-three-heading{
+        text-align: center;
+    }
+
+    .video-section-detail{
+        display: block;
+    }
+    .photography-video video{
+        margin-left: 0px;
+        width: 400px;
+        height: 400px;
+        
     }
 
 }
