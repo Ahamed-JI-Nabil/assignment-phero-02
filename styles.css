@@ -270,4 +270,8 @@ body{
         width: 100%;
     }
 
+    .video-section, .footer{
+        display: none;
+    }
+
 }
