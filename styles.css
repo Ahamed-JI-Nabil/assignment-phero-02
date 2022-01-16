@@ -57,13 +57,13 @@ body{
     overflow: hidden;
     color: #E02C6D;
 }
-.section-image{
+.section-one-image{
     background-image:url(images/Circle\ design.svg);
     width: 420px;
     height: 404px;
     padding-left: 50px;
 }
-.section-image:hover{
+.section-one-image:hover{
     transform: scale(1.2);
     transition: transform 1s;
     overflow: hidden;
@@ -251,18 +251,23 @@ body{
 /* media quries */
 /* mobile device */
 @media only screen and (max-width:688px){
+
+
     .container{
-        width: 100%;
+        max-width: 100%;
     }
+
     .section-one{
-        grid-template-columns: repeat(1, 1fr);
-        align-items: center;
-        width: 100%;
-        
+        display: block;
     }
-    .section-image{
-        height: 100px;
-        width: 80px;
+    .section-one-image{
         margin-top: 50px;
+        justify-items: center;
     }
+
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+
 }
