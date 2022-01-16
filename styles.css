@@ -172,6 +172,59 @@ body{
 
 /* products style end */
 
+/* section three style start */
+
+
+.section-three-heading h2{
+    color: #3A3A3A;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section-three-heading h2:hover{
+    transform: scale(1.1);
+    transition: transform 0.7s;
+    overflow: hidden;
+    color: #E02C6D;
+}
+
+.video-section-detail{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+.video-section video{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 15px gray;
+    border-style: none;
+}
+
+.video-section video:hover{
+    transform: scale(1.1);
+    transition: transform 0.7s;
+
+}
+
+.photography-info{
+    font-weight: 700;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-left: 40px;
+    margin-right: 30px;
+}
+
+.photography-info:hover{
+    transform: scale(1.1);
+    transition: transform 0.7s;
+    overflow: hidden;
+    color: #E02C6D;
+}
+
+/* section three style end */
 
 /* footer style start */
 .footer{
