@@ -280,10 +280,9 @@ body{
 
     .products{
         grid-template-columns: repeat(1, 1fr);
-        width: 100%;
+        width: fit-content;
         height: max-content;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
         align-content: center;
     }
     .see-more{
